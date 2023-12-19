@@ -1,0 +1,10 @@
+//7. What is the purpose of babel, are most important configurations we get from webpack 
+
+Babel is a JavaScript compiler that transforms modern code to ensure compatibility with older browsers. 
+When integrated with Webpack, it enables bundling and future-proofs code by transpiling ECMAScript features.
+
+//8. What is the purpose of -ReactDOM.createRoot
+
+ReactDOM.createRoot  establishes a new entry point for applications, enabling concurrent rendering. 
+It enhances performance and responsiveness by allowing React to better schedule and prioritize updates.
+
