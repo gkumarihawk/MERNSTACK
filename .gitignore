@@ -1,1 +1,9 @@
 /node-api/node_modules
+reactapp/package.json
+reactapp/node_modules/.package-lock.json
+reactapp/dist/bundle.js.LICENSE.txt
+reactapp/node_modules/@babel/compat-data/LICENSE
+reactapp/node_modules/@babel/core/LICENSE
+reactapp/node_modules/webpack-sources/lib/helpers/streamChunks.js
+reactapp/node_modules/@babel/core/lib/config/files/plugins.js.map
+reactapp/node_modules/@babel/generator/LICENSE
