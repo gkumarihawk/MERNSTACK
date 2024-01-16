@@ -1,0 +1,10 @@
+//1. what is virtual dom - optional
+
+Virtual dom is a lightweight copy of the real dom. 
+It is a node tree that lists the elements, their attributes and content as Objects and their properties. 
+It is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. 
+This process is called reconciliation.
+
+//2. how react renders dom in conservative manner - optional
+
+React uses a virtual DOM (a JavaScript representation of the real DOM). 

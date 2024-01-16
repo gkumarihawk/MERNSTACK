@@ -53,7 +53,7 @@ console.log(doAddition(2.3, 3));// will return NaN since 3 parameters are expect
 console.log(doAddition("first", 2, "three"));// will return first2three since 3 parameters are expected and two strings are provided so it concatenates the strings and the number is converted to string
 
 //QUESTION5
-var impTopics = require("./topics.js")
+var impTopics = require("../topics.js")
 console.log(impTopics)
 
 //QUESTION6

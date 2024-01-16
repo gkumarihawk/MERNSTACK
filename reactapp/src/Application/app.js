@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import "./app.css";
 
-import HeaderComponent from "./Common/HeaderComponent";
-import Footer from "./Common/FooterComponent";
+import HeaderComponent from "./Common/headerComponent";
+import Footer from "./Common/footerComponent";
 import NotFound from "./Common/NotFoundComponent";
 import Home from "./Common/HomeComponent";
-import About from "./Common/AboutComponent"; 
+import About from "./Common/AboutComponent";
+//import UserComponent from "./AppComponent/User/UserComponent.jsx";
+import User from "./AppComponent/User/UserContainer";
+
 
 //class component
 
@@ -37,6 +40,7 @@ export default class ApplicationComponent extends Component {
                 <HeaderComponent header={this.state.header} name={this.state.name} getChildData={this.getChildData}/>
                 <Routes>
                     <Route path="/home" element={<Home userName={"Jonathan"}/>}/>
+                    <Route path="/user" element={<User/>} />
                     <Route path="/about" element={<About/>} />
                     <Route path="*" element={<NotFound/>} />
                 </Routes>
